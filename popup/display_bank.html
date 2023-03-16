@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="wordbank.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>WordBank</h1>
+      <div>
+        <label for="base_language">Base language
+          <select name="base_language">
+            <option>English</option>
+          </select>
+        </label>
+        <label for="target_language">Target language
+          <select name="target_language">
+            <option>Russian</option>
+          </select>
+        </label>
+      </div>
+    </main>
+    
+    <div id="error-content" class="hidden">
+      <p>Can't beastify this web page.</p>
+      <p>Try a different page.</p>
+    </div>
+    <script src="display_bank.js"></script>
+  </body>
+</html>
